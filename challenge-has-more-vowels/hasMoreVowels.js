@@ -20,7 +20,7 @@ let hasMoreVowels2 = (word) => {
     let vowels = ["a", "e", "i", "o", "u"];
     for (const char of word) 
         if (vowels.includes(char))
-            vcount++
+            vcount++ // equivalent to vcount +=1
     return vcount > word.length/2 // if count is more than half the length  of the word, then there are more vowels.
 }
 

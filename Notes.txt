@@ -1,0 +1,24 @@
+***220926 - HTML & CSS 
+
+Front-End refers to the portion of the website that the user interacts with. Typically these are written in client side languages like Javascript, HTML/CSS
+
+HTML - markup language, not really a programming language. Categorize and display content. Without it, freeflowing, structureless content. Inteferes with SEO. files with .html extension
+
+Element - fundamental unit of HTML
+Attributes - used to configure elements 
+
+div tags divide pages into sections, usually contain other elements 
+
+UTF-8, standard unicode 
+
+Heads/Headers = contain info about
+Body = contains actual info 
+
+Most basic way to select is with the tag 
+
+Write CSS style sheet in an external file and link it to the HTML file
+Keep separation of concerns in mind
+
+Declarations lower in the sheet will override former declarations
+
+Box model refers to the 4-part box that wraps around every element: margin, border, padding, content 
