@@ -11,3 +11,17 @@ function hasMoreVowels(word){
     else return false;
 }
 console.log(hasMoreVowels("aaaaoooooooh")); 
+
+
+//class review 
+let hasMoreVowels2 = (word) => {
+    let isMoreVowels = false;
+    let vcount = 0;
+    let vowels = ["a", "e", "i", "o", "u"];
+    for (const char of word) 
+        if (vowels.includes(char))
+            vcount++
+    return vcount > word.length/2 // if count is more than half the length  of the word, then there are more vowels.
+}
+
+console.log(hasMoreVowels2("Bushra"));
