@@ -95,9 +95,17 @@ document.getElementById('animals-button').addEventListener('click', ohMy)
     We'll be updating this function in the next problem.
 */
 
+
 const repeatMyParam = () => {
-    //YOUR CODE HERE
+    axios.get("http://localhost:3000/repeat/someString").then(res => {
+        let repeatText = document.getElementById("repeat-button")
+        repeatText.textContent = res.data
+        repeatText.style.display = "block"
+        console.log(res.data)
+    })
+
 }
+document.getElementById("repeat-button").addEventListener("click", repeatMyParam)
 
 // PROBLEM 7
 /*
