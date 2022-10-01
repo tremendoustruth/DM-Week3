@@ -28,15 +28,10 @@ a:visited {
 	color: crimson;
 }
 
-
-input {
-	display: block;
-}
-
 img {
 	max-width: 300px;
 }
-/* 
-label {
-  } */
-  
+
+input[type=text] {
+	display: block;
+}
