@@ -43,8 +43,12 @@ input[type=text] {
 	display: block;
 }
 
+input[type=textarea] {
+	display: block;
+}
+
 button {
 	border-radius: 10px;
 	background-color: yellow;
-	padding: 10px 20px
+	padding: 10px 20px;
 }
