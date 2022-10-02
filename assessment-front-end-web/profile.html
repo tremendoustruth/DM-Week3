@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>It's "FakeMe2" Again.</title>
+    <title>It's "Me" Again.</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
     <link href="styles.css" rel="stylesheet">
 </head>
-<header>
-    <a href="home.html">Back </a>
-</header>
+<nav>
+    <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+    </ol>
+</nav>
+<div>Skills and Work Experience</div>
+<a href="https://www.linkedin.com/in/bushra-salama-bb959033/">LinkedIn Profile</a>
+<h3>Click to see some of "my" favorite things:<h3>
 <body>
     <button id="color" class = "button1">My Favorite Color</button>
     <button id="place" class = "button2">My Favorite Place</button>
     <button id="ritual" class = "button3">My Favorite Ritual</button> 
     <script src = "profile.js"></script> 
-</body>
 
-<footer>
-    Thank you for visiting the site!
-</footer>
+    <form>
+        <p>A little more about "me:"</p>
+        <p>I was born in a small village on the edge of the mountains, where my family raised goats. There, I learned how to be one with land and beast, and would like to share some of my learnings with you, friend.</p>
+        <ul>
+            <li>My birthday is April 1, 230 A.D. </li>
+            <li>I have 13 siblings</li>
+            <li>I enjoy growing herbs and woodworking</li>
+            <li>Sprightly, single, and ready to mingle</li>
+        </ul>
+        <label>Tell me about yourself!
+            <input type="textarea" id="tellme" class ="tellme">
+            <input type="submit" id="submit">
+        </label>
+    </form>
+</body>
 </html>
 
 
