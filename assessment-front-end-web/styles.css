@@ -35,3 +35,9 @@ img {
 input[type=text] {
 	display: block;
 }
+
+button {
+	border-radius: 2px;
+	background-color: yellow;
+	padding: 10px 20px
+}

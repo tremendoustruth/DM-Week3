@@ -1,15 +1,6 @@
-console.log("hello world");
+let form = document.getElementById("contact");
+let cat = document.getElementById("cat");
 
-
-
-function handleSubmit(evt) {
-	evt.preventDefault();
-	
-	console.log('form submit');
-}
-
-
-let form = document.querySelector('#submit');
-
-form.addEventListener('submit', handleSubmit);
+form.addEventListener("submit", () => alert("Thank you for submitting!"));
+cat.addEventListener("mouseover", () => alert("Nice job!"));
 

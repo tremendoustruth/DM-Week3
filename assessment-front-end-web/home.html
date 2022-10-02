@@ -3,7 +3,6 @@
 <head>
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
-
 </head>
 <body>
 	<nav>
@@ -13,7 +12,6 @@
 	        <li class="crumb"><a href="./about.html">About</a></li>
 	    </ol>
 	</nav>
-
 	<content>
 		<h1>Welcome to this little website.</h1>
 		<p>Hello World</p>
@@ -24,9 +22,9 @@
 			<li>Look into my eyes. So that I may better see your singular soul.</li>
 			<li>Meow-Meow-Meow-Meow-Meow, if you know what I mean.</li>
 		</ul>
-		<img src="onur-binay-E18nZ_OHh04-unsplash.jpg">
+		<img src="onur-binay-E18nZ_OHh04-unsplash.jpg" id = "cat">
 		<h2>Contact Us</h2>
-		<form id="contact">
+		<form id="contact" method="GET" onsubmit="handleSubmit">
 			Your name:
 			<input type="text">
 			Message:
@@ -41,11 +39,9 @@
 			<div>
 			<label><input type ="checkbox" id= "other"/>Other</label>	
 			</div>
-			<input type="submit" id="submit">
+			<input type="submit" id="submit" value="submit">
 		</form>
-
+		<script src="./about.js"></script>
 	</content>
-	<script src="about.js"></script>
-
 </body>
 </html>
